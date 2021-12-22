@@ -1,4 +1,4 @@
-# AI-ML
+# ML
 ANOMALY DETECTION
 
 Problem statement:
