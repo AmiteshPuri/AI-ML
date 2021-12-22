@@ -1,7 +1,8 @@
 # AI-ML
-Mechine learning projects
+ANOMALY DETECTION
 
 Problem statement:
+
           The Problem Statement presented below highlights a method with which one can evaluate the severity of the anomaly by quantifying the magnitude of the anomalous point.
           
           
