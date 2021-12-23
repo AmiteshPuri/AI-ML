@@ -10,4 +10,8 @@ The Problem Statement presented below highlights a method with which one can eva
 
 timestamp [float]: is provided as a Unix epoch in seconds.
 
-value [int] is a real value measurement of some metric at the timestamp. is_anomaly [ boolean]: is a boolean value which is True if the corresponding value is identified as an anomaly. If it is True, a score must be provided to the anomaly. If it is False, no score needs to be calculated for that timestamp. predicted [ float]: is a real value prediction coming from a black box forecasting model for that timestamp. This black box forecasting model is assumed to be aware of only the true data distribution of the time series, and cannot predict anomalies. You may choose to use or not use predicted values.
+value [int] is a real value measurement of some metric at the timestamp.
+
+is_anomaly [ boolean]: is a boolean value which is True if the corresponding value is identified as an anomaly. If it is True, a score must be provided to the anomaly. If it is False, no score needs to be calculated for that timestamp.
+
+predicted [ float]: is a real value prediction coming from a black box forecasting model for that timestamp. This black box forecasting model is assumed to be aware of only the true data distribution of the time series, and cannot predict anomalies. You may choose to use or not use predicted values.
